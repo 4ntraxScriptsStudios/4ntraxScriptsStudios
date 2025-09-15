@@ -1,0 +1,8 @@
+-- ( ( 𝐒𝐂𝐑𝐈𝐏𝐓 𝐋𝐎𝐀𝐃𝐄𝐑 ) ) --
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Move-Creator-Template-Loadstring-Source-52223"))()
+
+-- ( ( 𝐓𝐄𝐌𝐏𝐋𝐀𝐓𝐄 ) ) --
+function Function()
+print("Your Epic Skill's Functionality")
+end
+getgenv().Death_Port_SkillMaker_Create("Four Kicks","USE THIRD TOO",11.25,true,Function)
