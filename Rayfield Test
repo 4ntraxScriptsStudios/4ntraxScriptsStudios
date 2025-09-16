@@ -36,3 +36,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local Tab = Window:CreateTab("Scripts TSB", 125423895208736) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "4ntrax Moveset",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/4ntraxScriptsStudios/4ntraxScriptsStudios/refs/heads/main/4ntrax%20Moveset%20Remake"))()
+   end,
+})
