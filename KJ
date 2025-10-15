@@ -13,7 +13,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 1"
+ToolName.Text = "Ravage Kick"
 
 
 local player = game.Players.LocalPlayer
@@ -31,7 +31,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 2"
+ToolName.Text = "Barage"
 
 
 local player = game.Players.LocalPlayer
@@ -49,7 +49,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 3"
+ToolName.Text = "Swift Sweep"
 
 
 local player = game.Players.LocalPlayer
@@ -67,7 +67,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name 4"
+ToolName.Text = "Collateral Ruin"
 
 
 local Players = game:GetService("Players")
@@ -91,7 +91,7 @@ local function findGuiAndSetText()
 
             if textLabel then
 
-                textLabel.Text = "Ult Name"
+                textLabel.Text = "20 SERIES"
 
             end
 
@@ -136,12 +136,12 @@ end
 -- First move
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13073745835"
+AnimAnim.AnimationId = "rbxassetid://16945550029"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
 
-local startTime = 0.2
+local startTime = 6.8
 
 
 Anim:Play()
